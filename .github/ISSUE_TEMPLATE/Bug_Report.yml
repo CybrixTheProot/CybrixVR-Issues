@@ -10,26 +10,21 @@ body:
     required: true
 - type: textarea
   attributes:
+    label: Steps To Reproduce
+    description: Steps to reproduce the behavior.
+  validations:
+    required: false
+- type: textarea
+  attributes:
     label: To reproduce
     description: A concise description of what you expected to happen.
   validations:
     required: false
 - type: textarea
   attributes:
-    label: Steps To Reproduce
-    description: Steps to reproduce the behavior.
-    placeholder: |
-      1. In this environment...
-      1. With this config...
-      1. Run '...'
-      1. See error...
-  validations:
-    required: false
-- type: textarea
-  attributes:
     label: SkyAura Version Number
     description: |
-      placeholder: 2024.12.15.0621
+    placeholder: 2024.12.15.0621 (USE AN ACTUAL VERSION NUMBER)
   validations:
     required: true
 - type: textarea
