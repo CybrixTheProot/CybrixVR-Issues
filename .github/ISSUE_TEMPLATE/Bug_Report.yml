@@ -1,6 +1,6 @@
-name: 🐞 Bug
-description: File a bug/issue
-title: "[BUG] <title>"
+name: Bug Report
+description: When something is not working as expected
+title: ""
 labels: ["Bug", "Needs Triage"]
 body:
 - type: checkboxes
@@ -35,19 +35,11 @@ body:
     required: false
 - type: textarea
   attributes:
-    label: Environment
+    label: SkyAura Version Number
     description: |
-      examples:
-        - **OS**: Ubuntu 20.04
-        - **Node**: 13.14.0
-        - **npm**: 7.6.3
-    value: |
-        - OS:
-        - Node:
-        - npm:
-    render: markdown
+      placeholder: 2024.12.15.0621
   validations:
-    required: false
+    required: true
 - type: textarea
   attributes:
     label: Anything else?
