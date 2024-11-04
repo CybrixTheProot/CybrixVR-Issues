@@ -1,7 +1,6 @@
 name: Bug Report
 description: When something is not working as expected
-title: ""
-labels: ["Bug", "Needs Triage"]
+labels: ["Bug"]
 body:
 - type: checkboxes
   attributes:
