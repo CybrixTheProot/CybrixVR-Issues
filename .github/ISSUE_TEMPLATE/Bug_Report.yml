@@ -19,8 +19,8 @@ body:
     label: To reproduce
     description: A concise description of what you expected to happen.
   validations:
-    required: false
-- type: textarea
+    required: true
+- type: input
   attributes:
     label: SkyAura Version Number
     placeholder: 2024.12.15.0621 (USE AN ACTUAL VERSION NUMBER)
