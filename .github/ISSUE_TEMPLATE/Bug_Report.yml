@@ -23,7 +23,6 @@ body:
 - type: textarea
   attributes:
     label: SkyAura Version Number
-    description: |
     placeholder: 2024.12.15.0621 (USE AN ACTUAL VERSION NUMBER)
   validations:
     required: true
