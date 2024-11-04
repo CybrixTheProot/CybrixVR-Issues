@@ -40,3 +40,17 @@ body:
       Add media to help explain your problem
   validations:
     required: true
+- type: textarea
+  attributes:
+    label: Anything else?
+    description: |
+      Anything else to help explain the problem
+  validations:
+    required: false
+- type: textarea
+  attributes:
+    label: Reporters
+    description: |
+      Anything else to help explain the problem
+  validations:
+    required: false
